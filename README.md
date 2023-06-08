@@ -9,8 +9,20 @@ This is the repo for a electronic button clicker. A button clicker is a small el
 ![IMG_20230215_204531](https://github.com/sam-was-here/button-clicker/assets/102840190/05e833c8-f731-47f1-ad7b-6e20aca46a87)
 
 # BOM
-
+BT1: 3034TR - cr2032 batter holder - https://www.digikey.com/short/wqhf8fbf
+C1-C11: 0603 0.1uF ceramic cap - bypass cap - 
+D1: SOD-523 - crowbar diode for reverse polarity protection - 
+D2-D5: SMA  - TVS diode - https://mou.sr/43r05RL
+R1-R5: 0603 100k 5% resistor - buttons pull up/down resistors and debounceing
+R6-R47: 0603 1k 5% resistor - led current limiting resistors
+SW1: THT tack switch right angle - button that its clicks are counted - https://mou.sr/42t1Exi
+SW2: THT tack switch right angle - button to light up display - https://mou.sr/42t1Exi
+SW3: SMD tack switch - reset button - https://mou.sr/3oV6upt
+U1: SOT-23 (5) 74LVC1G17 - Single Schmitt-Trigger Buffer - https://www.digikey.com/short/7bh4nv4q
+U2-U4: TSSOP-16 74HC390 - DUAL DECADE RPL COUNTR - https://mou.sr/3katv4U
+U5-U10: TSSOP-16 74HC4511 - BCD-to-7 Segment - https://www.digikey.com/short/bz3pz8r9
+U11-U16: INND-TS30RCB - red 7 segment display - https://www.digikey.com/short/40qw31cv
 # Schematic
-
+![button-clicker.pdf](button-clicker.pdf)
 
 
